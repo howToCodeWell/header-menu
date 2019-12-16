@@ -9,10 +9,10 @@ class HeaderMenu extends React.Component {
 
     render() {
         return (
-            <header className={'bg-black pt-6 pb-6 mb-6'}>
-                <nav id={'menuMenu'} className={'flex items-center justify-between flex-wrap  mr-auto ml-auto w-1/2 sm:w-auto md:w-full lg:w-32 xl:w-3/4 '}>
-                    <div className={'flex items-center flex-shrink-0 text-white mr-6'}>
-                        <span className={'font-semibold text-xl tracking-tight'}>How To Code Well</span>
+            <header className="bg-black pt-6 pb-6 mb-6">
+                <nav id="menuMenu" className="flex items-center justify-between flex-wrap  mr-auto ml-auto w-1/2 sm:w-auto md:w-full lg:w-32 xl:w-3/4">
+                    <div className="flex items-center flex-shrink-0 text-white mr-6">
+                        <span className="font-semibold text-xl tracking-tight">How To Code Well</span>
                     </div>
                     <div className="block lg:hidden">
                         <button
