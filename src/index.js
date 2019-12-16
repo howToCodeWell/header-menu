@@ -27,7 +27,7 @@ class HeaderMenu extends React.Component {
                     <div className="items-end w-full flex lg:w-auto">
                         <div className="text-m lg:flex-grow">
                             {this.menu.items.map((item, key) =>
-                                <a className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white hover:text-pink-600 hover:no-underline mr-4"
+                                <a key={key} className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white hover:text-pink-600 hover:no-underline mr-4"
                                    href={item.link}>{item.name}</a>
                             )}
                         </div>
