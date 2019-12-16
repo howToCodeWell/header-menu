@@ -7,13 +7,6 @@ class HeaderMenu extends React.Component {
         this.menu = menu;
     }
 
-    renderItem(item, index) {
-        console.log(item.name);
-        return (
-            <div>{item.name}</div>
-        )
-    }
-
     render() {
         return (
             <header className={'bg-black pt-6 pb-6 mb-6'}>
