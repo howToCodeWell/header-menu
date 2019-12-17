@@ -25,7 +25,7 @@ class HeaderMenu extends Component {
                             {menu.items.map((item, key) =>
                                 <a key={key}
                                    className="block mt-4 font-bold lg:inline-block lg:mt-0 text-white hover:text-pink-600 hover:no-underline mr-4"
-                                   href={item.link}>{item.name}</a>
+                                   href={item.url}>{item.name}</a>
                             )}
                         </div>
                     </div>
