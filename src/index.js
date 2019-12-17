@@ -1,7 +1,11 @@
 import menu from '../menu'
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 
 class HeaderMenu extends Component {
+    handleClick(e) {
+        document.getElementById("nav-content").classList.toggle("hidden");
+    }
+
     render() {
         return (
             <header className="bg-black pt-6 pb-6 mb-6">
@@ -12,6 +16,8 @@ class HeaderMenu extends Component {
                     </div>
                     <div className="block lg:hidden">
                         <button
+                            onClick={this.handleClick}
+                            id="nav-toggle"
                             className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
                             <svg className="fill-current h-3 w-3" viewBox="0 0 20 20"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -20,7 +26,7 @@ class HeaderMenu extends Component {
                             </svg>
                         </button>
                     </div>
-                    <div className="items-end w-full flex lg:w-auto">
+                    <div className="items-end w-full lg:w-auto hidden lg:block flex lg:w-auto" id="nav-content">
                         <div className="text-m lg:flex-grow">
                             {menu.items.map((item, key) =>
                                 <a key={key}
@@ -34,4 +40,5 @@ class HeaderMenu extends Component {
         )
     }
 }
-    export default HeaderMenu;
+
+export default HeaderMenu;
