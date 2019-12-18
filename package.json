@@ -1,6 +1,6 @@
 {
   "name": "howtocodewell-header-menu",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "How To Code Well Header Menu",
   "main": "dist/index.js",
   "scripts": {
