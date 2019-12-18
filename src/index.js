@@ -8,7 +8,7 @@ class HeaderMenu extends Component {
 
     render() {
         return (
-            <header className="bg-black pt-6 pb-6 mb-6">
+            <header className="bg pt-6 pb-6 mb-6">
                 <nav id="menuMenu"
                      className="container mx-auto px-4">
                     <div className="flex items-center justify-between flex-wrap">

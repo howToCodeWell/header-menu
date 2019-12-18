@@ -7,3 +7,6 @@
 a:hover{
     cursor: pointer;
 }
+header.bg{
+    background-color: theme('colors.howtocodewell');
+}

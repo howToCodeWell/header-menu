@@ -12,6 +12,8 @@ module.exports = {
     colors: {
       transparent: 'transparent',
 
+      howtocodewell: '#14252C',
+
       black: '#000',
       white: '#fff',
 
