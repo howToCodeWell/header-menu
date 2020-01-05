@@ -13,7 +13,7 @@ class HeaderMenu extends Component {
                      className="container mx-auto px-4">
                     <div className="flex items-center justify-between flex-wrap">
                         <div className="flex items-center flex-shrink-0 text-white mr-6">
-                            <span className="font-semibold text-lg tracking-tight">How To Code Well</span>
+                            <a href="/" className="font-semibold text-lg tracking-tight">How To Code Well</a>
                         </div>
                             <div className="block lg:hidden justify-end">
                                 <button
