@@ -1,15 +1,15 @@
 {
   "items": [
     {
-      "name": "Merch",
-      "url": "https://howtocodewell.net/merch"
-    },
-    {
-      "name": "Shop",
-      "url": "https://howtocodewell.net/shop"
+      "name": "Default",
+      "url": "https://howtocodewell.net/merchaa"
     },
     {
       "name": "Courses",
+      "url": "https://howtocodewell.net/shop"
+    },
+    {
+      "name": "Tutorials",
       "url": "https://howtocodewell.net/courses"
     },
     {
