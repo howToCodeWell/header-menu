@@ -1,10 +1,9 @@
-import defaultMenu from '../menu'
 import React from 'react';
 
 function HeaderMenu(props) {
     return (
         <header className="bg pt-6 pb-6 mb-6">
-            <nav id="menuMenuAAA"
+            <nav id="menuMenu"
                  className="container mx-auto px-4">
                 <div className="flex items-center justify-between flex-wrap">
                     <div className="flex items-center flex-shrink-0 text-white mr-6">
