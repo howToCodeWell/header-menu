@@ -1,12 +1,12 @@
 {
   "name": "@howtocodewell/header-menu",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "How To Code Well Header Menu",
-  "main": "dist/index.js",
+  "main": "dist/HeaderMenu.js",
   "scripts": {
-    "build:style": "tailwind build src/css/index.css -o src/styles/tailwind.css",
     "start": "npm run build:style",
-    "build": "babel src --out-dir dist",
+    "build": "babel src/HeaderMenu.js --out-dir dist",
+    "clean": "rm dist/HeaderMenu.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/howToCodeWell/header-menu#readme",
   "dependencies": {
-    "react": "^16.12.0"
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
@@ -34,7 +35,8 @@
     "@babel/node": "^7.7.4",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
-    "autoprefixer": "^9.7.3",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/jest-dom": "^5.16.4",
     "babel-loader": "^8.0.6"
   },
   "babel": {

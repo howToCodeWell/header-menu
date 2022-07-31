@@ -1,5 +1,4 @@
 .idea
 node_modules
-src/styles/tailwind.css
 dist/*
 !dist/.gitkeep
